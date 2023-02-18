@@ -1,3 +1,12 @@
-.body{
-    background-color:darkslategrey;
+/*Paleta de colores*/
+/* Color Theme Swatches in Hex */
+.darkblue { color: #010221; }
+.darkgreen { color: #0A7373; }
+.darklima { color: #B7BF99; }
+.orange { color: #EDAA25; }
+.red { color: #C43302; }
+
+
+body{
+    background-color:#010221;
 }

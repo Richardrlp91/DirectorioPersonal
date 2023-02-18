@@ -4,13 +4,21 @@ html{
 body{
     font-size:1.6em;
 }
+li{
+    text-decoration: none;
+    list-style: none;
+}
 .invisible{
-    display:none;
+    display: none;
+}
+.container_flex{
+    display:flex;
 }
 h1.title{
     font-size: 2em;
     text-align: center;
 }
+/*SELECT THEME*/
 .container_theme{
     border: 1px solid;
     border-radius: 5px;
@@ -18,26 +26,42 @@ h1.title{
     top: 10px;
     right:30px;
 }
-#color_theme{
+#select_theme{
     text-align: left;
     font-size: 1.2em;
     padding:30px;
     margin:10px;
 }
-#color_theme option{
+#select_theme option{
     margin:0 50px;
 }
+
+/*HEADER*/
 header nav{
-    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 header nav div{
-    font-size:1.4em;
-    padding: 5px;
-    margin-right: 5px;
+    position: relative;
+    font-size:1.5em;
+    margin:15px;
+    min-width: 150px;
 }
-header nav div:hover >ul{
-    display: block;
+header nav div:hover ul{
+    background-color: inherit;
+    display:block;
+}
+.listaU{
+    position: absolute;
+    color: inherit;
+    padding: inherit;
+    margin: 0;
+
+}
+.listaU li{
+    font-size: 1em;
+    text-align: left;
 }
 footer{
     position:fixed;
