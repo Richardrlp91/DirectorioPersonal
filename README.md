@@ -1,2 +1,2 @@
-# DirectorioPersonal
+# ChuletaSMS
 Directorio personal del SMS
