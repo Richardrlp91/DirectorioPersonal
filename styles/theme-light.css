@@ -1,0 +1,28 @@
+
+/* Color Theme Swatches in Hex */
+.pink { color: #F2889B; }
+.hueso { color: #FFF8EE; }
+.verde { color: #95BFA4; }
+.orange { color: #F29E38; }
+.strorange { color: #F28444; }
+
+.body{
+    background-color: #FFF8EE;
+}
+/*NAV*/
+.tools-sup{
+    background-color: #95BFA4;
+}
+.tools-apps{
+    background-color: #F29E38;
+}
+.tools-admin{
+    background-color: #F2889B;
+}
+.tools-sel{
+    background-color:midnightblue;
+    color:white
+}
+.tools-ot{
+    background-color:#F28444;
+}
