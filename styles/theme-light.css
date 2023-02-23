@@ -6,9 +6,16 @@
 .orange { color: #F29E38; }
 .strorange { color: #F28444; }
 
-.body{
-    background-color: #FFF8EE;
+body{font-size:1.6em;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF8EE;  ;
+    color:  black ;
 }
+a{text-decoration:none;color:black;}
+a:hover{font-size: 15px;color:brown;margin:10px 0;}
+
+.subtitle{font-size: 16px;text-align: center; color: black ;padding: 10px;}
+.text-blue{color:cornflowerblue;}
 /*NAV*/
 .tools-sup{
     background-color: #95BFA4;
@@ -20,9 +27,42 @@
     background-color: #F2889B;
 }
 .tools-sel{
-    background-color:midnightblue;
+    background-color:cornflowerblue;
     color:white
+}
+.tools-alf{
+    background-color:#95BFA4;
 }
 .tools-ot{
     background-color:#F28444;
 }
+.col > ul{
+    background-color:  #f2f4f4 ;
+}
+.input-text{
+    width:180px;
+    padding:5px 10px;
+    border:1px solid #FFF8EE;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
+}
+.contenedor .contenedor--col{
+    border: #f4f6f6 1px solid;
+}
+#etq{
+    margin: auto 10px;
+    border-radius: 10px;
+    display: inline-block;
+    border: solid 1px darkgray;
+}
+#etq--form{
+    margin:10px;
+}
+#enviar{
+	border:1px solid #000;
+	border-radius:5px;
+	color:#fff;
+	background-color: #FF5733;
+    }

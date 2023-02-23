@@ -26,18 +26,11 @@ header nav{
     flex-wrap: wrap;
 
 }
-body{font-size:1.6em;
-    font-family: 'Roboto', sans-serif;
-    background-color: #1c2833  ;
-    color:  #f4f6f6 ;}
 .contenedor{
     display: -webkit-flex;
     display: -ms-flexbox;
     flex-wrap: wrap;
     justify-content: center;
-}
-.contenedor .contenedor--col{
-    border: #f4f6f6 1px solid;
 }
 .descripcion{
     flex-grow: 1;
@@ -48,30 +41,8 @@ body{font-size:1.6em;
     justify-content: space-around;
     padding: auto 10px;
 }
-
-.apps{
-    border:outline 1px  #DAF7A6;
-}
-.h-sop{
-    border:outline 1px   #FFC300 ;
-}
-.mon{
-    border:outline 1px   #FF5733 ;
-}
-.alf{
-    border:outline 1px  chocolate;
-}
-.sel{
-    border:outline 1px cornflowerblue;
-}
-.otros{
-    border:outline 1px #1F8A70;
-}
-
-
 .col > ul{
     position: absolute;
-    background-color:  #f2f4f4 ;
     outline: solid;
     display: none;
     margin-top: 0;
@@ -87,53 +58,28 @@ body{font-size:1.6em;
     font-size: 14px;
     padding: 10px;
 }
-    a{text-decoration:none;color:black;}
-    a:hover{font-size: 15px;color:brown;margin:10px 0;}
-    .text-center{text-align:center;}
-    .text-blue{color:cornflowerblue;}
 .border-5{
     border-radius: 5px;;
 }
-.subtitle{font-size: 16px;text-align: center; color: #f4f6f6 ;padding: 10px;}
 .title{margin: 20px 0;font-size: 2em;}
 .lista>li{font-size: 13px;}
-.input-text{
-        width:180px;
-        padding:5px 10px;
-        border:1px solid #f6f6f6;
-        border-radius:3px;
-        background-color:#f6f6f6;
-        margin:8px 0;
-        display:inline-block;
-    }
-    #enviar{
-	padding:8px 16px;
-	margin-top:20px;
-	border:1px solid #000;
-	border-radius:5px;
-	display:block;
-	color:#fff;
-	background-color: #FF5733;
-    }
-    .bold{font-weight: bold;}
-    .d-inline{display: inline;}
-    .d-none{display: none;}
-    .d-inlineB{display: inline-block;}
-    .pie{
-        width: 100%;
-        margin: 0 auto;
-        font-weight: bold;
-        font-size: 20px;
-        position: fixed;
-        bottom:15px;
-        text-align: center;
-    }
-    #etq{
-        margin: auto 10px;
-        border-radius: 10px;
-        display: inline-block;
-        border: solid 1px #fff;
-    }
-    #etq--form{
-        margin:10px;
-    }
+
+#enviar{
+padding:8px 16px;
+margin-top:20px;
+display:block;
+}
+.bold{font-weight: bold;}
+.d-inline{display: inline;}
+.d-none{display: none;}
+.d-inlineB{display: inline-block;}
+.text-center{text-align:center;}
+.pie{
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+    position: fixed;
+    bottom:15px;
+    text-align: center;
+}
